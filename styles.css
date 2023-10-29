@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.856);
+    position: relative;
+}
+
+.calculator {
+    margin-top: 10px;
+}
+
+label, input, button {
+    text-align: justify;
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.category {
+    font-weight: bold;
+}
+
+/* Modo Noturno */
+body.night-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.night-mode .container {
+    background-color: #444;
+}
+
+.night-mode label, .night-mode input {
+    background-color: #444;
+    color: #fff;
+}
+.night-mode button{
+    background-color: #f2f4f6;
+    color: #080808;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.night-mode #result {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Posicionamento da Div do Modo Noturno */
+.container .dark-mode-toggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
